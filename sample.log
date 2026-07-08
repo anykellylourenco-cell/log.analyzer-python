@@ -1,0 +1,7 @@
+2026-07-08 10:15:22 INFO Sistema iniciado
+2026-07-08 10:15:30 INFO Usuário admin realizou login
+2026-07-08 10:16:01 WARNING Tentativa de login inválida
+2026-07-08 10:16:15 ERROR Banco de dados indisponível
+2026-07-08 10:16:40 INFO Conexão restabelecida
+2026-07-08 10:17:05 ERROR Falha ao salvar arquivo
+2026-07-08 10:17:30 WARNING Espaço em disco abaixo de 10%
