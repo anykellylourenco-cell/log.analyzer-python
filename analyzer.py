@@ -3,8 +3,10 @@
 info = 0
 warning = 0
 error = 0
+total_linhas = 0
 with open("sample.log", "r") as arquivo:
     for linha in arquivo:
+        total_linhas += 1
         if "INFO" in linha:
             info += 1
         elif "WARNING" in linha:
@@ -15,4 +17,4 @@ with open("sample.log", "r") as arquivo:
 print(f"Info: {info}")
 print(f"Warning: {warning}")
 print(f"Error: {error}")
-
+print(f"Total de linhas: {total_linhas}")
